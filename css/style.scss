@@ -17,3 +17,19 @@ $color-main: gold;
     background-color: #fff !important;
     border-top: 1px solid $color-main;
 }
+
+.carousel img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    bottom: 55px;
+}
+
+.title {
+    color: $color-main;
+    font-size: 2em;
+    padding: 20px 0;
+}
