@@ -47,15 +47,29 @@ $color-main: gold;
         padding-left: 0;
         
         div {
+            background-color: #333;
             color: #fff !important;
             text-align: left;
-            background-color: #333;
-            padding: 120px 20px 0 20px;
+            padding: 20px 20px 0 20px;
             height: 100%;
         }
     }
 
     .buy-left {
         padding-right: 0;
+    }
+}
+
+// RWD
+@media screen and (max-width: 767px) {
+    .buy-left {
+        padding-right: 15px !important;
+    }
+    .buy-right {
+        padding-left: 15px !important;
+        
+        div {
+            padding-bottom: 50px !important;
+        }
     }
 }
