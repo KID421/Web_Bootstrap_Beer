@@ -40,4 +40,20 @@
   font-size: 1em;
   padding: 5px 0 10px 0;
 }
+
+.row .buy-right {
+  padding-left: 0;
+}
+
+.row .buy-right div {
+  color: #fff !important;
+  text-align: left;
+  background-color: #333;
+  padding: 120px 20px 0 20px;
+  height: 100%;
+}
+
+.row .buy-left {
+  padding-right: 0;
+}
 /*# sourceMappingURL=style.css.map */
