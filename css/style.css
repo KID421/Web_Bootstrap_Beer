@@ -28,7 +28,16 @@
 
 .title {
   color: gold;
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 20px 0;
+}
+
+.row img {
+  width: 100%;
+}
+
+.row h2 {
+  font-size: 1em;
+  padding: 5px 0 10px 0;
 }
 /*# sourceMappingURL=style.css.map */
