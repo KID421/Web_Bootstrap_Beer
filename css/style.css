@@ -65,6 +65,22 @@
   display: none !important;
 }
 
+#back-to-top {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #222;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 767px) {
   .buy-left {
     padding-right: 15px !important;
