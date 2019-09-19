@@ -16,6 +16,16 @@ $(document).ready(function () {
         // 輸出訊息至控制台
         // console.log('捲動中~');
         // scrollTop() 元素的上方位置
-        console.log($(window).scrollTop());
+        // console.log($(window).scrollTop());
+
+        // 如果 螢幕高度 >= 200 就顯示按鈕
+        // 否則 就隱藏按鈕
+        if ($(window).scrollTop() >= 200) {
+            
+            $('#back-to-top').fadeIn(500);
+        } else {
+            
+            $('#back-to-top').fadeOut(500);
+        }
     });
 });
