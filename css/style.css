@@ -80,6 +80,7 @@
   right: 20px;
   bottom: 20px;
   cursor: pointer;
+  display: none;
 }
 
 @media screen and (max-width: 767px) {
