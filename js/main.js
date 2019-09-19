@@ -38,5 +38,12 @@ $(document).ready(function () {
         // 取得點選連結的屬性 href 內容
         var link = $(this).attr('href');
         console.log(link);
+
+        // 取得目標標題的上方 (位移.上方)
+        var top = $(link).offset().top;
+        console.log(top);
+
+        // 動畫
+        $('html, body').animate({scrollTop: top}, 1000);
     });
 });
