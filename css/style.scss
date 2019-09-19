@@ -16,6 +16,7 @@ $color-main: gold;
 .navbar {
     background-color: #fff !important;
     border-top: 1px solid $color-main;
+    text-align: center;
 }
 
 .carousel img {
@@ -84,6 +85,10 @@ $color-main: gold;
     bottom: 20px;
     cursor: pointer;
     display: none;
+}
+
+.box {
+    height: 100vh;
 }
 
 // RWD
