@@ -44,6 +44,6 @@ $(document).ready(function () {
         console.log(top);
 
         // 動畫
-        $('html, body').animate({scrollTop: top}, 1000);
+        $('html, body').animate({scrollTop: top}, 3000);
     });
 });
