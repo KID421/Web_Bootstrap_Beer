@@ -4,12 +4,15 @@
 // scrollTop 元素的上方
 // jqReady
 $(document).ready(function () {
+    
+    // -- 回到頂端
     // jqClick
     $('#back-to-top').click(function (e) { 
         // 找到 html, body 執行動畫 ({動畫屬性: 值}, 時間);
         $('html, body').animate({scrollTop: 0}, 1000);
     });
 
+    // -- 捲動顯示或掩藏按鈕
     // 視窗 - window
     // 捲動 - scroll()
     $(window).scroll(function () { 
@@ -27,5 +30,13 @@ $(document).ready(function () {
             
             $('#back-to-top').fadeOut(500);
         }
+    });
+
+    // -- 連結捲動到標題
+    $('.nav-link').click(function (e) { 
+
+        // 取得點選連結的屬性 href 內容
+        var link = $(this).attr('href');
+        console.log(link);
     });
 });
