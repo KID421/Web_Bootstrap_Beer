@@ -43,7 +43,12 @@ $(document).ready(function () {
         var top = $(link).offset().top;
         console.log(top);
 
-        // 動畫
-        $('html, body').animate({scrollTop: top}, 3000);
+        // 取得速度 - 字串 string
+        var speed = $(this).attr('data-speed');
+        console.log(speed);
+
+        // 動畫 
+        // 將 字串 轉為 整數 parseInt(字串)
+        $('html, body').animate({scrollTop: top}, parseInt(speed));
     });
 });
