@@ -14,6 +14,8 @@ $(document).ready(function () {
     // 捲動 - scroll()
     $(window).scroll(function () { 
         // 輸出訊息至控制台
-        console.log('捲動中~');
+        // console.log('捲動中~');
+        // scrollTop() 元素的上方位置
+        console.log($(window).scrollTop());
     });
 });
